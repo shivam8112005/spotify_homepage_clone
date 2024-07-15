@@ -126,6 +126,7 @@ a{
     height: 8.5rem;
 }
  .sticky-nav{
+    z-index: 1;
 position: sticky;
 /* Impppppppp point to make position sticky (top=0)*/
 top: 0;
@@ -267,3 +268,41 @@ margin-bottom: 1rem;
     margin-left: 1.5rem;
     top: 1.3rem;
 }
+.footer{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+
+    width: 90%;
+    border-top: 1px solid white;
+    height: 40%;
+    opacity: 0.5;
+}
+.music-player{
+    display: flex;
+    align-items: center;
+}
+.left{
+    height: 3.5rem;
+    width: 23%;
+    margin-left: 1rem;
+    display: flex;
+}
+.left img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.5rem;
+}
+p1{
+    font-size: 1rem;
+    font-weight: 900;
+    align-self: flex-start;
+    margin-top: 1rem;
+    /* margin-right: 1.9rem; */
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
