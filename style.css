@@ -384,14 +384,41 @@ opacity: 1;
     height: 2.1rem;
     width: 2.1rem;
 }
-.line1{
+/* .line1{
     width: 75%;
     border-top: 4px solid gray;
     height: 40%;
     opacity: 0.5;
     
    
-}
+} */
+ .control-bar{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+     bottom: 0.8rem;
+ }
+ .progress-bar{
+    appearance: none;
+    width: 70%;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ .progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 1rem;
+    height: 0.3rem;
+ }
+ .progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    background-color: #ddd;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    margin-top: -0.2rem;
+ }
+ 
 .right{
     height: 3.5rem;
     width: 18%;
